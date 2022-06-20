@@ -1,4 +1,4 @@
-
+"""Python Program that converts a given string to all uppercase if it contains at least 2 uppercase characters in the first 4 characters"""
 def convert(word):
     count_capital = 0
     for char in range(len(word)):
